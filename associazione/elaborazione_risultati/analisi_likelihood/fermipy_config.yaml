@@ -1,0 +1,61 @@
+binning:
+  binsperdec: 8
+  binsz: 0.1
+  roiwidth: 15
+components:
+- selection:
+    emin: 1000
+    zmax: 105
+- selection:
+    emax: 1000
+    emin: 300
+    evtype: 56
+    zmax: 95
+- selection:
+    emax: 300
+    emin: 100
+    evtype: 48
+    zmax: 85
+data:
+  evfile: /gpfs/glast/Users/gprincip/Fermi_13years/ft1.lst
+  ltcube: null
+  scfile: /gpfs/glast/Users/gprincip/Fermi_13years/ft2.lst
+fileio:
+  logfile: /gpfs/glast/Users/pauletto/analysis_trial/fermipy.log
+  outdir: /gpfs/glast/Users/pauletto/analysis_trial/
+  scratchdir: /scratch
+  usescratch: false
+gtlike:
+  edisp: true
+  edisp_disable:
+  - isodiff
+  irfs: P8R3_SOURCE_V3
+model:
+  catalogs: /gpfs/glast/Users/gprincip/catalogs/gll_psc_v27.fit
+  extdir: /gpfs/glast/Users/gprincip/catalogs/LAT_extended_sources_8years.fits
+  galdiff: /gpfs/glast/Users/gprincip/catalogs/gll_iem_v07.fits
+  isodiff: /gpfs/glast/Users/gprincip/catalogs/iso_P8R3_SOURCE_V3_v1.txt
+  sources:
+  - Index: 2.0
+    Prefactor: 1.0e-9
+    Scale: 1000
+    SpatialModel: PointSource
+    SpectrumType: PowerLaw
+    dec: 65.714
+    name: 180916
+    ra: 29.501
+  src_roiwidth: 20
+selection:
+  dec: 65.714
+  emax: 1000000
+  emin: 100
+  evclass: 128
+  evtype: 3
+  filter: null
+  glat: null
+  glon: null
+  ra: 29.501
+  target: null
+  tmax: 643313196
+  tmin: 643312586
+  zmax: 105

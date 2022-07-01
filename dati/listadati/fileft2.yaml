@@ -1,0 +1,45 @@
+name:
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2008.fits
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2009.fits
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2010.fits
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2011.fits
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2012.fits
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2013.fits
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2014.fits
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2015.fits
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2016.fits
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2017.fits
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2018.fits
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2019.fits
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2020.fits
+- /gpfs/glast/Users/gprincip/Fermi_13years_ft2/ft2_2021.fits
+tstart:
+- 239556977.6
+- 252479998.6
+- 284039981.6
+- 315599973.6
+- 347159978.6
+- 378721582.6307819
+- 410279990.6
+- 441839998.6
+- 473399971.6
+- 504959984.6
+- 536519984.6
+- 568079998.6
+- 599639996.6
+- 631199975.6
+tstop:
+- 252480028.6
+- 284040011.6
+- 315600003.6
+- 347160008.6
+- 378719986.6
+- 410280020.6
+- 441840028.6
+- 473400001.6
+- 504960014.6
+- 536520014.6
+- 568080058.6
+- 599640056.6
+- 631200035.6
+- 649610030.6
